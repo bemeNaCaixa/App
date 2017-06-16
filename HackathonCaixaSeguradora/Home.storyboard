@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="wg9-QZ-hgz">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Zkj-XE-KN2">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -22,46 +22,29 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Q3t-pX-QjM"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wIY-nu-fKO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="519" y="-105"/>
+            <point key="canvasLocation" x="1456.8" y="-105.69715142428787"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="b6s-lX-z5J">
+        <!--Navigation Controller-->
+        <scene sceneID="J57-bv-QOt">
             <objects>
-                <viewController id="ehQ-nD-nGx" customClass="ViewController" customModule="HackathonCaixaSeguradora" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="YFh-N0-Z35"/>
-                        <viewControllerLayoutGuide type="bottom" id="1BN-tC-JSW"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="y2d-ys-kLf">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Orq-Kb-eD3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Zkj-XE-KN2" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="R8q-n3-V7S">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="wg9-QZ-hgz" kind="relationship" relationship="rootViewController" id="CHL-5a-gvC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t5Z-hd-fnR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2158" y="-106"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="aGI-R7-cZI">
-            <objects>
-                <viewController id="yr8-2l-WiM" customClass="ViewController" customModule="HackathonCaixaSeguradora" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="f1e-xs-7Rm"/>
-                        <viewControllerLayoutGuide type="bottom" id="2yL-HR-4tn"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kJ2-kS-FKt">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="26q-E5-cLa" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1314" y="-106"/>
+            <point key="canvasLocation" x="517.60000000000002" y="-105.69715142428787"/>
         </scene>
     </scenes>
 </document>
