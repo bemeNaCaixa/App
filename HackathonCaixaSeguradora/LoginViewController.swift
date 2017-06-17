@@ -1,29 +1,30 @@
 //
-//  ViewController.swift
+//  LoginViewController.swift
 //  HackathonCaixaSeguradora
 //
-//  Created by Miguel Pimentel on 16/06/17.
+//  Created by Miguel Pimentel on 17/06/17.
 //  Copyright © 2017 BEPiD. All rights reserved.
 //
 
 import UIKit
 
+class LoginViewController: UIViewController {
 
 
-class ViewController: UIViewController {
-
+  
+ 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
-        // Do any additional setup after loading the view, typically from a nib.
+      
+    
+
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
 
 }
-

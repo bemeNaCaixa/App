@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ZPv-e5-k1J">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Onboarding View Controller-->
+        <scene sceneID="Rgp-bw-pJ1">
+            <objects>
+                <viewController id="ZPv-e5-k1J" customClass="OnboardingViewController" customModule="HackathonCaixaSeguradora" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BCB-Sv-myl"/>
+                        <viewControllerLayoutGuide type="bottom" id="pg1-LL-n9G"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BFY-3b-Lk8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F2V-0x-ssi" customClass="OnboardingView" customModule="HackathonCaixaSeguradora" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="F2V-0x-ssi" secondAttribute="trailing" id="EYC-FA-j8f"/>
+                            <constraint firstItem="pg1-LL-n9G" firstAttribute="top" secondItem="F2V-0x-ssi" secondAttribute="bottom" id="K0j-Iv-c95"/>
+                            <constraint firstItem="F2V-0x-ssi" firstAttribute="leading" secondItem="BFY-3b-Lk8" secondAttribute="leading" id="LUo-2J-x8y"/>
+                            <constraint firstItem="F2V-0x-ssi" firstAttribute="top" secondItem="BFY-3b-Lk8" secondAttribute="top" id="Wzv-fs-yBK"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="onboardingView" destination="F2V-0x-ssi" id="ZR5-gV-zil"/>
+                        <segue destination="aM8-FU-JUK" kind="show" identifier="Home" id="nfK-jA-da2"/>
+                        <segue destination="Yvf-MQ-oH0" kind="show" identifier="Login" id="LcD-gJ-Hv2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kHX-t5-gY9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-66.400000000000006" y="108.39580209895054"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="xqh-Sl-ATW">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Home" id="aM8-FU-JUK" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Twg-62-gyr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="508" y="108"/>
+        </scene>
+        <!--LogIn-->
+        <scene sceneID="gQJ-n5-EUy">
+            <objects>
+                <viewControllerPlaceholder storyboardName="LogIn" id="Yvf-MQ-oH0" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sfh-Ce-oET" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="509" y="167"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,9 +1,21 @@
-//
-//  extensionViewController.swift
-//  HackathonCaixaSeguradora
-//
-//  Created by Miguel Pimentel on 16/06/17.
-//  Copyright © 2017 BEPiD. All rights reserved.
-//
+import UIKit
 
-import Foundation
+extension ViewController {
+    
+    func assignBackground(color: UIColor) {
+        
+        
+        var imageView : UIImageView!
+        
+        imageView = UIImageView(frame: view.bounds)
+        imageView.contentMode =  UIViewContentMode.scaleAspectFill
+        imageView.clipsToBounds = true
+        imageView.backgroundColor = color
+        imageView.center = view.center
+        
+        view.addSubview(imageView)
+        self.view.sendSubview(toBack: imageView)
+    }
+
+
+}

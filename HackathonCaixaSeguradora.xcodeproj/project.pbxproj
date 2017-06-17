@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5FA048E190D1FF45504D1217 /* Pods_HackathonCaixaSeguradora.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 037AB81176532B4D2C5087DD /* Pods_HackathonCaixaSeguradora.framework */; };
 		AD0C8E101EF4780000F6592D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0C8E0F1EF4780000F6592D /* AppDelegate.swift */; };
 		AD0C8E121EF4780000F6592D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0C8E111EF4780000F6592D /* ViewController.swift */; };
 		AD0C8E171EF4780000F6592D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD0C8E161EF4780000F6592D /* Assets.xcassets */; };
 		AD0C8E271EF478B100F6592D /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD0C8E261EF478B100F6592D /* Home.storyboard */; };
 		AD0C8E2A1EF4815500F6592D /* extensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0C8E291EF4815500F6592D /* extensionViewController.swift */; };
+		AD0C8E2C1EF50DB900F6592D /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD0C8E2B1EF50DB900F6592D /* Onboarding.storyboard */; };
+		AD0C8E301EF50E9E00F6592D /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0C8E2F1EF50E9E00F6592D /* OnboardingViewController.swift */; };
+		AD0C8E321EF5117900F6592D /* paper_onboarding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD0C8E311EF5117900F6592D /* paper_onboarding.framework */; };
+		AD0C8E341EF5126600F6592D /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0C8E331EF5126600F6592D /* OnboardingView.swift */; };
+		AD0C8E361EF5160800F6592D /* LogIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD0C8E351EF5160800F6592D /* LogIn.storyboard */; };
+		AD0C8E381EF5167F00F6592D /* Swift+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0C8E371EF5167F00F6592D /* Swift+Gif.swift */; };
+		AD0C8E3A1EF51A4C00F6592D /* cameraGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = AD0C8E391EF51A4C00F6592D /* cameraGif.gif */; };
+		AD0C8E3C1EF51CA200F6592D /* Universe.gif in Resources */ = {isa = PBXBuildFile; fileRef = AD0C8E3B1EF51CA200F6592D /* Universe.gif */; };
+		AD0C8E3E1EF51DE100F6592D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0C8E3D1EF51DE100F6592D /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		037AB81176532B4D2C5087DD /* Pods_HackathonCaixaSeguradora.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackathonCaixaSeguradora.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CCEF45EA111700E005C5CF4 /* Pods-HackathonCaixaSeguradora.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackathonCaixaSeguradora.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackathonCaixaSeguradora/Pods-HackathonCaixaSeguradora.release.xcconfig"; sourceTree = "<group>"; };
+		9CD12A33E7336CB69B364346 /* Pods-HackathonCaixaSeguradora.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackathonCaixaSeguradora.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackathonCaixaSeguradora/Pods-HackathonCaixaSeguradora.debug.xcconfig"; sourceTree = "<group>"; };
 		AD0C8E0C1EF4780000F6592D /* HackathonCaixaSeguradora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackathonCaixaSeguradora.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD0C8E0F1EF4780000F6592D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD0C8E111EF4780000F6592D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +35,15 @@
 		AD0C8E1B1EF4780000F6592D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD0C8E261EF478B100F6592D /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		AD0C8E291EF4815500F6592D /* extensionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extensionViewController.swift; sourceTree = "<group>"; };
+		AD0C8E2B1EF50DB900F6592D /* Onboarding.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
+		AD0C8E2F1EF50E9E00F6592D /* OnboardingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		AD0C8E311EF5117900F6592D /* paper_onboarding.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = paper_onboarding.framework; path = "../../Library/Developer/Xcode/DerivedData/HackathonCaixaSeguradora-derrxnppaqpbkmewtelucpzxvckk/Build/Products/Debug-iphonesimulator/paper-onboarding/paper_onboarding.framework"; sourceTree = "<group>"; };
+		AD0C8E331EF5126600F6592D /* OnboardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		AD0C8E351EF5160800F6592D /* LogIn.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LogIn.storyboard; sourceTree = "<group>"; };
+		AD0C8E371EF5167F00F6592D /* Swift+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Gif.swift"; sourceTree = "<group>"; };
+		AD0C8E391EF51A4C00F6592D /* cameraGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cameraGif.gif; sourceTree = "<group>"; };
+		AD0C8E3B1EF51CA200F6592D /* Universe.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Universe.gif; sourceTree = "<group>"; };
+		AD0C8E3D1EF51DE100F6592D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +51,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD0C8E321EF5117900F6592D /* paper_onboarding.framework in Frameworks */,
+				5FA048E190D1FF45504D1217 /* Pods_HackathonCaixaSeguradora.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		995B4C8ED3D2AE99BE62D517 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9CD12A33E7336CB69B364346 /* Pods-HackathonCaixaSeguradora.debug.xcconfig */,
+				6CCEF45EA111700E005C5CF4 /* Pods-HackathonCaixaSeguradora.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AD0C8E031EF4780000F6592D = {
 			isa = PBXGroup;
 			children = (
 				AD0C8E0E1EF4780000F6592D /* HackathonCaixaSeguradora */,
 				AD0C8E0D1EF4780000F6592D /* Products */,
+				995B4C8ED3D2AE99BE62D517 /* Pods */,
+				CD9A7435502EBCA15FC458D4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,6 +119,8 @@
 			isa = PBXGroup;
 			children = (
 				AD0C8E261EF478B100F6592D /* Home.storyboard */,
+				AD0C8E351EF5160800F6592D /* LogIn.storyboard */,
+				AD0C8E2B1EF50DB900F6592D /* Onboarding.storyboard */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -92,6 +129,9 @@
 			isa = PBXGroup;
 			children = (
 				AD0C8E111EF4780000F6592D /* ViewController.swift */,
+				AD0C8E3D1EF51DE100F6592D /* LoginViewController.swift */,
+				AD0C8E331EF5126600F6592D /* OnboardingView.swift */,
+				AD0C8E2F1EF50E9E00F6592D /* OnboardingViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -99,6 +139,8 @@
 		AD0C8E251EF4786B00F6592D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				AD0C8E391EF51A4C00F6592D /* cameraGif.gif */,
+				AD0C8E3B1EF51CA200F6592D /* Universe.gif */,
 				AD0C8E161EF4780000F6592D /* Assets.xcassets */,
 			);
 			name = Resources;
@@ -108,8 +150,18 @@
 			isa = PBXGroup;
 			children = (
 				AD0C8E291EF4815500F6592D /* extensionViewController.swift */,
+				AD0C8E371EF5167F00F6592D /* Swift+Gif.swift */,
 			);
 			name = Extensions;
+			sourceTree = "<group>";
+		};
+		CD9A7435502EBCA15FC458D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD0C8E311EF5117900F6592D /* paper_onboarding.framework */,
+				037AB81176532B4D2C5087DD /* Pods_HackathonCaixaSeguradora.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD0C8E1E1EF4780000F6592D /* Build configuration list for PBXNativeTarget "HackathonCaixaSeguradora" */;
 			buildPhases = (
+				AF12CD1C75ECCAB3379779AD /* [CP] Check Pods Manifest.lock */,
 				AD0C8E081EF4780000F6592D /* Sources */,
 				AD0C8E091EF4780000F6592D /* Frameworks */,
 				AD0C8E0A1EF4780000F6592D /* Resources */,
+				6186CD4E69681DBEBD9BE1D0 /* [CP] Embed Pods Frameworks */,
+				3954289E1F6AA24B7F756E25 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -172,6 +227,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD0C8E361EF5160800F6592D /* LogIn.storyboard in Resources */,
+				AD0C8E3A1EF51A4C00F6592D /* cameraGif.gif in Resources */,
+				AD0C8E2C1EF50DB900F6592D /* Onboarding.storyboard in Resources */,
+				AD0C8E3C1EF51CA200F6592D /* Universe.gif in Resources */,
 				AD0C8E171EF4780000F6592D /* Assets.xcassets in Resources */,
 				AD0C8E271EF478B100F6592D /* Home.storyboard in Resources */,
 			);
@@ -179,13 +238,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3954289E1F6AA24B7F756E25 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackathonCaixaSeguradora/Pods-HackathonCaixaSeguradora-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6186CD4E69681DBEBD9BE1D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackathonCaixaSeguradora/Pods-HackathonCaixaSeguradora-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF12CD1C75ECCAB3379779AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AD0C8E081EF4780000F6592D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD0C8E3E1EF51DE100F6592D /* LoginViewController.swift in Sources */,
 				AD0C8E121EF4780000F6592D /* ViewController.swift in Sources */,
+				AD0C8E301EF50E9E00F6592D /* OnboardingViewController.swift in Sources */,
 				AD0C8E101EF4780000F6592D /* AppDelegate.swift in Sources */,
+				AD0C8E341EF5126600F6592D /* OnboardingView.swift in Sources */,
+				AD0C8E381EF5167F00F6592D /* Swift+Gif.swift in Sources */,
 				AD0C8E2A1EF4815500F6592D /* extensionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,6 +401,7 @@
 		};
 		AD0C8E1F1EF4780000F6592D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CD12A33E7336CB69B364346 /* Pods-HackathonCaixaSeguradora.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9WNM2GU386;
@@ -303,6 +415,7 @@
 		};
 		AD0C8E201EF4780000F6592D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CCEF45EA111700E005C5CF4 /* Pods-HackathonCaixaSeguradora.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9WNM2GU386;
@@ -333,6 +446,7 @@
 				AD0C8E201EF4780000F6592D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
